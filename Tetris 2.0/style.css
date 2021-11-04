@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#backg{
+    margin-top: 40px;
+    width: 800px;
+}
+
+#score{
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+    margin: 203px 0px 0px 845px;
+}
+
+/*p {
+    text-align: center;
+}
+*/
+
+#tetris {
+    position: absolute;
+    background-color: #000000;
+    margin-top:141px;
+    margin-left: 292px;
+    height: 440px;
+}
+
+#pieces {
+    position: absolute;
+    background-color: #000000;
+    margin: 320px 0px 0px 619px;
+}
+
+.keys {
+    position: absolute;
+    float: left;
+    margin-top: 250px;
+    margin-left: 292px;
+    width: 210px;
+}
+
+.keys p {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    text-align: justify;
+}
+
+button {
+    position: absolute;
+    margin: 437px 0px 0px 587px;
+    padding: 23px;
+    width: 150px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background-color: rgb(122, 122, 122);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: silver;
+}
+
+button:disabled {
+    background-color: #DDDDDD;
+    cursor: not-allowed;
+}
